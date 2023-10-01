@@ -1,0 +1,66 @@
+body{
+    background-image: url(uhk.jpg);
+    border: #007BFF;
+
+}
+    *{box-sizing:border-box;}
+        body {
+            background-image: url(uhk.jpg);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+            flex-direction: column;
+        }
+
+   
+
+        input {
+            background-image: url(asd.jpg);
+            color: #fff;
+            border: 1px solid #666;
+            padding: 8px 12px;
+            margin: 4px;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        input[type="number"] {
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .container {
+            background-image: url(asd.jpg);
+
+            border-radius: 5px;
+            margin-bottom: 20px;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+button {
+    background-color: #6eacee; /* Deep blue color */
+    color: #fff;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 100%;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+    background-color: #84b2e4; /* sky blue on hover */
+}
